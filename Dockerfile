@@ -1,0 +1,1 @@
+FROM amqp-cpp-make
