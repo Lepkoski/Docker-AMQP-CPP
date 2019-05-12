@@ -1,0 +1,8 @@
+FROM amqp-cpp-source
+
+ENV workdir /sources/AMQP-CPP
+
+WORKDIR ${workdir}
+
+RUN make && \
+    make install
